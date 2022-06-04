@@ -14,7 +14,7 @@
   }
 }
 
-.feature-list__icon--fon {
+.feature-list__icon-fon {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -30,7 +30,7 @@
   height: 70px;
 }
 
-.feature-list__subtitle {
+.feature-list__title {
   margin-bottom: 10px;
 
   @media screen and (min-width: 320px) {
