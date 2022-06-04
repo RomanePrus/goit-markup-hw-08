@@ -19,7 +19,7 @@
     }
   }
   @if $mode == round {
-    @return round($number * $n) / $n;
+    @return calc(round($number * $n) / $n);
   } @else if $mode == ceil {
     @return ceil($number * $n) / $n;
   } @else if $mode == floor {
@@ -33,7 +33,7 @@
 @mixin font($fs: 14px, $fw: 400, $lh: 24px) {
   font-size: $fs;
   font-weight: $fw;
-  line-height: decimal-round($lh/$fs, 2);
+  line-height: decimal-round calc($lh/$fs);
 }
 
 @mixin flex-list {
