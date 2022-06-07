@@ -12,6 +12,7 @@
   @media screen and (min-width: 1200px) {
     @include flex-item;
   }
+  margin-bottom: 30px;
 }
 
 .feature-list__icon-fon {
@@ -32,6 +33,9 @@
 
 .feature-list__title {
   margin-bottom: 10px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
 
   @media screen and (min-width: 320px) {
     text-align: center;
@@ -43,6 +47,8 @@
 }
 
 .feature-list__text {
+  font-weight: 400;
+  font-size: 14px;
   line-height: 1.71;
   color: var(--secondary-text-color);
 }

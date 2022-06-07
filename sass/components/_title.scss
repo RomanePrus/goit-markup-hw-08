@@ -1,6 +1,10 @@
 .section__title {
   @media screen and (max-width: 1199px) {
-    @include font($fs: 28px, $fw: 700, $lh: 33px);
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 1.17;
+    color: #212121;
+    letter-spacing: 0.03em;
     margin-bottom: var(--set-gap);
     text-align: center;
   }
